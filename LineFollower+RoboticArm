@@ -109,7 +109,7 @@ void path_correct()
 
 
 int get_sensor_right_data(){
-  int data = 0;
+  int data = 1;
   data += analogRead(SENSOR5);
   return data;
   
